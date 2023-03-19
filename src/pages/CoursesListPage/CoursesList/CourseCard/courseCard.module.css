@@ -1,0 +1,95 @@
+.item {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    box-shadow: 0 5px 5px -5px #333;
+    margin: 20px;
+    padding-bottom: 20px;
+    height: fit-content;
+}
+
+.img {
+    margin: 10px;
+    width: 30%;
+    height: fit-content;
+}
+
+.titleCourse {
+    color: #ff961f;
+}
+
+.courseDescription {
+    width: 60%;
+}
+
+.courseDescription h1{
+    width: 80%;
+}
+
+.courseInfo {
+    padding: 10px 30px;
+    width: 40%;
+}
+
+.loading {
+    text-align: center;
+    color: #ac6a20;
+}
+
+@media (max-width: 880px) {
+
+    .item {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img {
+        margin: 0;
+        width: 200px;
+        height: fit-content;
+    }
+
+    .courseDescription {
+        width: fit-content;
+        margin: 0;
+        padding: 0;
+    }
+
+    .courseDescription h1 {
+        width: 100%;
+    }
+
+    .courseInfo {
+        width: 100%;
+        justify-content: start;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .item {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img {
+        margin: 0;
+        width: 200px;
+        height: fit-content;
+    }
+
+    .courseDescription {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .courseInfo {
+        width: 100%;
+        justify-content: start;
+    }
+
+}

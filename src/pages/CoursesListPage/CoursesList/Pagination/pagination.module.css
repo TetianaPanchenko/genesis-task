@@ -1,0 +1,22 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.pageItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    width: 30px;
+    height: 30px;
+    margin: 0 10px 10px 10px;
+}
+
+a {
+    color: chocolate;
+    font-size: 20px;
+    text-decoration: none;
+}

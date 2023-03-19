@@ -1,0 +1,8 @@
+.ul {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0;
+    margin: 30px;
+    box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}

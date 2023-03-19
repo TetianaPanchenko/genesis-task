@@ -1,0 +1,12 @@
+.btn {
+    width: fit-content;
+    background: transparent;
+    color: #ac6a20;
+    border-radius: 50px;
+    padding: 5px 15px;
+
+}
+
+.btn:focus {
+    background-color: #ff961f;
+}

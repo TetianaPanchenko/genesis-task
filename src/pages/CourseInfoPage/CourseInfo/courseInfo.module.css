@@ -1,0 +1,23 @@
+.containerInfo {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0;
+    margin: 30px;
+}
+
+.titleCourse {
+    font-size: 30px;
+    color: #ff961f;
+}
+
+.courseDetails {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.loading {
+    text-align: center;
+    color: #ac6a20;
+}
